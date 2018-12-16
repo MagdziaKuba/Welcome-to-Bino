@@ -36,9 +36,9 @@ body{
 	    padding: 0px;
 	}
 	nav{
-	position: absolute;
-	z-index: 1;
-	margin-left: 20%;
+		position: absolute;
+		z-index: 1;
+		margin-left: 20%;
 	}
 	#logo{
 		float: left;
@@ -55,9 +55,9 @@ body{
 		border-bottom: 1px solid #e84c3c;
 	}
 	ul{
-    list-style-type: none;
-    margin:0 auto;
-    padding: 0;
+    	list-style-type: none;
+    	margin:0 auto;
+    	padding: 0;
 	}
 	ul>li{
 		margin-top: 3%;
@@ -177,8 +177,8 @@ body{
 	}
 	
 	nav{
-	position: absolute;
-	z-index: 1;
+		position: absolute;
+		z-index: 1;
 	}
 	#logo{
 		float: left;
@@ -211,11 +211,11 @@ body{
 		
 	}
 	.krzyzyk{
-	width: 50px;
-    height: 4px;
-    background-color: black;
-    display: block;
-    margin: 10px auto;
+		width: 50px;
+    	height: 4px;
+    	background-color: black;
+    	display: block;
+    	margin: 10px auto;
 	}
 	.krzyzyk:first-child{
 		 transform: translateY(10px) rotate(45deg);
