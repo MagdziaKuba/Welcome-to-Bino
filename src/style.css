@@ -1,0 +1,429 @@
+body{
+	position: relative;
+	text-align: center;
+	margin:0;
+	padding: 0;
+}
+@media screen and (min-width: 800px) {/*Desktop*/
+	.glyphicon{
+		background-color: white;
+		opacity: 0.5;
+
+	}
+	.glyphicon:hover{
+		background-color: #e84c3c;
+		opacity: 0.5;
+		color:white;
+	}
+	.carousel-control{
+		color:grey;
+	}
+	.carousel-control.left{
+		background-image:none;
+	}
+	.carousel-control.right{
+		background-image:none;
+	}
+	.carousel-control:hover{
+		color:grey;
+
+		/*color:white;
+		opacity: 1;
+		color:#e84c3c;*/
+	}
+	.carousel-control:hover .glyphicon{
+
+	}
+	.container{
+
+
+	}
+	.hamburger{
+		visibility:hidden;
+	}
+	.linki{
+	    float:left;
+	    color:black;
+	    padding: 0px;
+	}
+	nav{
+	position: absolute;
+	z-index: 1;
+	margin-left: 20%;
+
+	}
+	#logo{
+		float: left;
+		margin-left: 0;
+		margin-right: 20%;
+		margin-top: 4%;
+	}
+	#logo img{
+		
+	}
+
+	.taby a{
+		color:white;
+		text-decoration: none;
+	}
+	.taby a:hover{
+		color:#e84c3c;
+		border-bottom: 1px solid #e84c3c;
+	}
+	ul {
+    list-style-type: none;
+    margin:0 auto;
+    padding: 0;
+}
+	ul>li{
+		margin-top: 3%;
+
+	}
+	ul>li>a> h6{
+		margin: 10px;
+		padding-top:30px;
+		font-size: 12px;
+	}
+
+
+	.carousel-caption{
+		position: absolute;
+		top:20%;
+	}
+	#center{
+		position: absolute;
+		top:75%;
+		right: 20%;
+		left: 20%;
+	}
+	#buttonStarted{
+		border-radius: 4px; 
+		background-color: #e84c3c; 
+		border:none; 
+		color: white;
+		width: 200px;
+		height: 50px; 
+		padding: 5px;
+
+	}
+	#buttonStarted:hover{
+		border:2px dotted white;
+		border-radius: 4px;
+		background-color: transparent;
+		color: #e84c3c;
+	}
+	#buttonMore{
+		border-radius: 4px; 
+		border: 1px solid #ffffff; 
+		color: white;
+		background-color: transparent;
+		width: 200px;
+		height: 50px; 
+		padding: 5px;
+	
+	}
+	#buttonMore:hover{ 
+		border: none; 
+		color: #e84c3c;
+		background-color: white;
+	}
+	ol.carousel-indicators{
+			position: absolute;
+			left: 50%;
+			bottom: 5%;
+
+
+	}
+	ol.carousel-indicators > li{
+		height: 20px;
+			width: 20px;
+			border-radius: 50%;
+			margin:1px;
+		
+	}
+	ol.carousel-indicators > li:hover{
+		opacity: 0.5;
+		background-color: white;
+
+	}
+	ol.carousel-indicators > li.active{
+		height: 20px;
+			width: 20px;
+			border-radius: 50%;
+			margin:1px;
+	}
+	#arrow{
+		position: absolute;
+		left: 48%;
+		bottom: -4%;
+		
+	}
+	#arrow img{
+		/*width: 80%;
+		height: 80%;*/
+	}
+	h1,h2{
+		font-size: 80px;
+		font-weight: 700;
+	}
+	.design{
+		padding-bottom: 5px;
+	}
+	main{
+		width:80%;
+		margin-left: 10%;
+	}
+	.nextTo{
+		width:25%;
+		float: left;
+		padding: 2%;
+	}
+
+	/*.nextTo h3:hover{
+		color:#e84c3c;
+	}*/
+
+
+	.containerCarousel{
+    	padding: 0px !important;
+    
+	}
+
+	.square {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 60px;
+		height: 60px;
+		border: 1px solid #CCCCCC;
+		margin-left: 40%;
+	}
+	
+
+	
+}/*End Desktop*/
+
+
+@media screen and (max-width: 800px) {/*Mob*/
+
+	body{	
+		height: 100%;
+		width: 100%;
+	}
+	.carousel-control{
+		opacity: 0;
+	}
+	
+	nav{
+	position: absolute;
+	z-index: 1;
+	}
+	#logo{
+		float: left;
+		margin-left: 70%;
+		margin-top: 20%;
+		text-align: center;
+	}
+	#logo img{
+		
+	}
+	.onlyNav{
+
+	}
+	.taby{
+		background-color: white;
+
+	}
+	.taby:hover{
+		background-color: #eaf8fc;
+	}
+	.taby a{
+		color:#6a6a6a;
+		text-decoration: none !important;
+
+	}
+	.taby a:hover{
+		color:#e84c3c;
+
+	}
+
+	.linki{
+
+	}
+	ul{
+		left: 20%;
+	}
+	ul>li{
+		margin-top: 0;
+
+	}
+	h6{
+		margin: 0;
+		
+	}
+	.krzyzyk{
+	width: 50px;
+    height: 4px;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+	}
+	.krzyzyk:first-child{
+		 transform: translateY(10px) rotate(45deg);
+	}
+	.krzyzyk:last-child{
+		 transform: translateY(-10px) rotate(-45deg);
+	}
+	.kreski{
+	width: 40px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    margin: 10px auto;
+	}
+	.hamburger{
+		visibility:visible;
+		border:0;
+		background:0;
+		position: absolute;
+		font-size: 40px;
+		width:50px;
+		height: 50px;
+		right: -100%;
+		top:30%;
+		padding: 0;
+		z-index: 1;
+	}
+
+	.navp .c li{
+		
+		display: none;
+	}
+	.navp .navip{
+		display: inline-block;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+	}
+	.navp .navip li{
+		border-bottom: 1px solid #dddddd;
+		padding-top: 20%;
+		padding-bottom: 20%;
+		padding-right: 200%;
+		padding-left: 10%;
+	}
+	.navp .navip li:first-child{
+		padding-top: 40%;
+		
+	}
+	.navp .navip li:last-child{
+		border-bottom: 1px solid white;
+		
+	}
+	.navp #ii{
+		display: inline-block;
+	}
+	.navp #iii{
+		display: none;
+	}
+	.o{
+	/*box-shadow: -2px 5px 20px #888888;*/
+	-webkit-box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.41);
+    box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.41);
+	}
+	.navp .o #iii{
+		display: inline-block;
+	}
+	.navp .o #ii{
+		display: none;
+	}
+	.navp #ii{
+		display: inline-block;
+	}
+	.navp #iii{
+		display: none;
+	}
+
+
+	.carousel-caption{
+		position: absolute;
+		top:15%;
+
+	}
+	.noShow{
+		visibility: hidden;
+	}
+	
+	#center{
+		position: absolute;
+		top:70%;
+		margin-left: 24%;
+		
+	}
+	#buttonStarted{
+		border-radius: 4px; 
+		background-color: #e84c3c; 
+		border:none; 
+		color: white;
+		width: 200px;
+		height: 30px; 
+		padding: 5px;
+
+	}
+	#buttonMore{
+		visibility: hidden;	
+	}
+	ol.carousel-indicators > li{
+		margin:10%;
+		padding: 3%;
+	}
+	ol.carousel-indicators > li.active{
+		margin:10%;
+	}
+	#arrow{
+		position: absolute;
+		
+
+	}
+	#arrow{
+		position: absolute;
+		left: 43%;
+		top:34%;
+
+	}
+	#arrow img{
+		width: 80%;
+		height: 80%;
+	}
+	
+	.square {
+		width: 60px;
+		height: 60px;
+		border: 1px solid #CCCCCC;
+		margin: 40px auto 0;
+	}
+	.square img{
+		margin-top: 40%;
+	}
+	
+
+	.NoNextTo{
+		width:70% !important;
+		padding-left: 5%;
+		padding-right: 5%;
+		text-align: center;
+		margin-left: 15%;
+	}
+	
+	.NoNextTo p:last-child{
+		padding-bottom: 20%;
+	}
+	.broke{
+		
+	}
+
+}/*End Mob*/
